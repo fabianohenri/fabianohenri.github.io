@@ -1,0 +1,245 @@
+<title>Política de Privacidade — ClipsVirais</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#FAF8F4;
+    --surface:#FFFFFF;
+    --text:#1E1B16;
+    --text-muted:#75695C;
+    --border:#E7E0D5;
+    --accent:#C9502F;
+    --accent-ink:#FFFFFF;
+    --mono-tint:#F1ECE2;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#17140F;
+      --surface:#201C15;
+      --text:#EFE8DC;
+      --text-muted:#A79A87;
+      --border:#332C21;
+      --accent:#E5734A;
+      --accent-ink:#1B140D;
+      --mono-tint:#241F17;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#17140F;
+    --surface:#201C15;
+    --text:#EFE8DC;
+    --text-muted:#A79A87;
+    --border:#332C21;
+    --accent:#E5734A;
+    --accent-ink:#1B140D;
+    --mono-tint:#241F17;
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Inter",-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.6;
+    padding-inline:20px;
+  }
+  .wrap{
+    max-width:700px;
+    margin:0 auto;
+    padding-block:48px 80px;
+  }
+  header.top{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:40px;
+  }
+  .mark{
+    width:38px;height:38px;border-radius:10px;
+    background:var(--accent);
+    color:var(--accent-ink);
+    display:flex;align-items:center;justify-content:center;
+    font-family:"Fraunces",serif;font-weight:700;font-size:19px;
+    flex:none;
+  }
+  .brand{
+    font-size:14px;
+    color:var(--text-muted);
+    letter-spacing:.04em;
+    text-transform:uppercase;
+  }
+  h1{
+    font-family:"Fraunces",serif;
+    font-weight:600;
+    font-size:clamp(28px,5vw,40px);
+    line-height:1.15;
+    margin:0 0 10px;
+    text-wrap:balance;
+  }
+  .meta{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px 20px;
+    font-size:13px;
+    color:var(--text-muted);
+    border-bottom:1px solid var(--border);
+    padding-bottom:24px;
+    margin-bottom:32px;
+  }
+  .meta strong{color:var(--text);font-weight:500}
+
+  section{margin-bottom:30px}
+  .num{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    font-family:"Fraunces",serif;
+    font-weight:600;
+    font-size:20px;
+    margin:0 0 8px;
+  }
+  .num span.digit{
+    color:var(--accent);
+    font-variant-numeric:tabular-nums;
+    min-width:1.6em;
+  }
+  p{margin:0 0 12px;color:var(--text)}
+  ul{margin:0 0 12px;padding-left:22px}
+  li{margin-bottom:6px}
+
+  table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:14px;
+    margin:12px 0 16px;
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    overflow:hidden;
+  }
+  th,td{
+    text-align:left;
+    padding:10px 12px;
+    border-bottom:1px solid var(--border);
+    vertical-align:top;
+  }
+  thead th{
+    background:var(--mono-tint);
+    font-weight:600;
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:.04em;
+    color:var(--text-muted);
+  }
+  tbody tr:last-child td{border-bottom:none}
+
+  .callout{
+    background:var(--mono-tint);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:16px 18px;
+    font-size:14px;
+    color:var(--text-muted);
+  }
+  .callout strong{color:var(--text)}
+
+  a{color:var(--accent)}
+
+  footer{
+    margin-top:48px;
+    padding-top:20px;
+    border-top:1px solid var(--border);
+    font-size:13px;
+    color:var(--text-muted);
+  }
+
+  @media (max-width:480px){
+    .wrap{padding-block:32px 56px}
+    table, thead, tbody, th, td, tr{display:block}
+    thead{display:none}
+    tr{border-bottom:1px solid var(--border);padding:10px 0}
+    tbody tr:last-child{border-bottom:none}
+    td{border-bottom:none;padding:2px 12px}
+    td::before{
+      content:attr(data-label);
+      display:block;
+      font-size:11px;
+      text-transform:uppercase;
+      letter-spacing:.04em;
+      color:var(--text-muted);
+      margin-top:6px;
+    }
+  }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="mark">C</div>
+    <div class="brand">ClipsVirais</div>
+  </header>
+
+  <h1>Política de Privacidade</h1>
+  <div class="meta">
+    <span>Última atualização: <strong>16 de setembro de 2026</strong></span>
+    <span>Contato: <strong>fabiano.oliveira@projetusti.com.br</strong></span>
+  </div>
+
+  <div class="callout" style="margin-bottom:32px">
+    <strong>Em resumo:</strong> o ClipsVirais processa vídeo e áudio localmente, na máquina do operador. Não há coleta de dados de terceiros, não há banco de usuários e a única integração externa é a API oficial do TikTok, usada apenas para publicar vídeos na conta que o próprio operador autorizou.
+  </div>
+
+  <section>
+    <p class="num"><span class="digit">01</span> Quem opera esta ferramenta</p>
+    <p>O ClipsVirais é operado individualmente por Fabiano Oliveira, para uso pessoal. Não é um serviço multiusuário nem coleta dados de visitantes de um site — é um programa executado localmente por quem o instala.</p>
+  </section>
+
+  <section>
+    <p class="num"><span class="digit">02</span> Dados processados</p>
+    <table>
+      <thead>
+        <tr><th>Dado</th><th>Origem</th><th>Onde fica</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Dado">Arquivos de vídeo originais</td>
+          <td data-label="Origem">Fornecidos pelo próprio operador</td>
+          <td data-label="Onde fica">Somente no disco local do operador</td>
+        </tr>
+        <tr>
+          <td data-label="Dado">Transcrição de áudio</td>
+          <td data-label="Origem">Gerada localmente por modelo de reconhecimento de fala rodando na própria máquina</td>
+          <td data-label="Onde fica">Somente no disco local do operador</td>
+        </tr>
+        <tr>
+          <td data-label="Dado">Token de acesso do TikTok</td>
+          <td data-label="Origem">Emitido pelo TikTok após autorização OAuth do operador</td>
+          <td data-label="Onde fica">Arquivo de configuração local, não versionado nem compartilhado</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <p class="num"><span class="digit">03</span> Uso da API do TikTok</p>
+    <p>A integração com o TikTok usa a Content Posting API oficial. O escopo solicitado permite apenas o envio (upload) de vídeos para a conta que autorizou o aplicativo — a ferramenta não lê, não coleta e não armazena dados de perfil, seguidores ou conteúdo de outras contas do TikTok.</p>
+  </section>
+
+  <section>
+    <p class="num"><span class="digit">04</span> Compartilhamento com terceiros</p>
+    <p>Nenhum dado é vendido, alugado ou compartilhado com terceiros. O único destino externo dos vídeos gerados é a própria conta do TikTok autorizada pelo operador, através da API oficial da plataforma.</p>
+  </section>
+
+  <section>
+    <p class="num"><span class="digit">05</span> Retenção e exclusão</p>
+    <p>Vídeos, transcrições e tokens ficam armazenados apenas localmente, sob controle do operador, que pode apagá-los a qualquer momento removendo os arquivos correspondentes. Revogar a autorização diretamente nas configurações da conta do TikTok invalida o token de acesso.</p>
+  </section>
+
+  <section>
+    <p class="num"><span class="digit">06</span> Alterações nesta política</p>
+    <p>Esta política pode ser atualizada para refletir mudanças na ferramenta. A data no topo desta página indica a versão vigente.</p>
+  </section>
+
+  <footer>
+    Dúvidas sobre esta política: <a href="mailto:fabiano.oliveira@projetusti.com.br">fabiano.oliveira@projetusti.com.br</a>
+  </footer>
+</div>
